@@ -1,0 +1,52 @@
+/** 
+
+04. services area 
+
+**/
+
+.gc-service-area {
+    padding: 100px 0;
+}
+
+.gc-service-area .service-section {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.gc-service-area .service-section .service-icon {
+    margin-bottom: 35px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.gc-service-area .service-section .service-icon:hover {
+    filter: grayscale(0);
+    transform: rotate(20deg);
+}
+
+.gc-service-area .service-section .service-content h4 {
+    margin-bottom: 15px;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-service-area {
+        text-align: center;
+    }
+    .service-item {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-service-area {
+        text-align: left;
+    }
+}

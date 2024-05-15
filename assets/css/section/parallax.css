@@ -1,0 +1,48 @@
+/** 
+
+07. parallax area 
+
+**/
+
+.gc-parallax-area {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gc-parallax-area .parallax-content {
+    text-align: left;
+}
+
+.gc-parallax-area .parallax-content h2 {
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 100px;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-parallax-area {
+        padding: 150px 0;
+    }
+    .gc-parallax-area .parallax-content h2 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-parallax-area {
+        padding: 200px 0;
+    }
+    .gc-parallax-area .parallax-content h2 {
+        font-size: 90px;
+    }
+}

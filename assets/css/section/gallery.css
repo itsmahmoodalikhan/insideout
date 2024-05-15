@@ -1,0 +1,41 @@
+/** 
+
+04. gallery area 
+
+**/
+
+.gc-gallery-area {
+    padding: 150px 0;
+    background-color: #000;
+}
+
+.gc-gallery-area .section-title h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.gc-gallery-area .gallery-section .gallery-img {
+    overflow: hidden;
+}
+
+.gc-gallery-area .gallery-section .gallery-img img {
+    transition: 0.7s;
+}
+
+.gc-gallery-area .gallery-section .gallery-img img:hover {
+    transform: scale(1.5);
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}

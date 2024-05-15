@@ -1,0 +1,72 @@
+/*
+
+************** author details **************
+
+Name: Mahmood Ali Khan
+URI:  HTML5 inside out gym By Mahmood Ali Khan 
+Author: Mahmood Ali Khan code
+Author URI: https://github.com/itsmahmoodalikhan
+
+/*  import all css file*/
+
+@import "section/backtotop.css";
+@import "section/preloader.css";
+@import "section/header.css";
+@import "section/owlslider.css";
+@import "section/about.css";
+@import "section/service.css";
+@import "section/category.css";
+@import "section/testimonial.css";
+@import "section/team.css";
+@import "section/parallax.css";
+@import "section/counter.css";
+@import "section/blog.css";
+@import "section/gallery.css";
+@import "section/footer.css";
+/* Responsive Media*/
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

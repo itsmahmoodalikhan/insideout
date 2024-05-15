@@ -1,0 +1,51 @@
+/** 
+
+06. team area
+
+**/
+
+.gc-team-area {
+    padding: 100px 0;
+}
+
+.gc-team-area .section-title h2 {
+    margin: 60px 0 40px 0;
+    text-align: left;
+}
+
+.gc-team-area .team-section .team-img {
+    overflow: hidden;
+}
+
+.gc-team-area .team-section .team-img img {
+    transition: 0.7s;
+}
+
+.gc-team-area .team-section .team-img img:hover {
+    transform: scale(1.5);
+}
+
+.gc-team-area .team-content h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-team-area .section-title h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-team-area .section-title h2 {
+        text-align: left;
+    }
+}

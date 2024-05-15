@@ -1,0 +1,62 @@
+/** 
+
+04. about area 
+
+**/
+
+.gc-about-area {
+    padding: 100px 0;
+    background-color: #0a0a0a;
+}
+
+.gc-about-area .about-content {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.gc-about-area .about-section .about-thumb {
+    overflow: hidden;
+}
+
+.gc-about-area .about-section .about-thumb img {
+    transition: 0.7s;
+}
+
+.gc-about-area .about-section .about-thumb img:hover {
+    transform: scale(1.5);
+}
+
+.gc-about-area .section-title h2 {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.gc-about-area .about-content .about-text h3 {
+    margin: 20px 0 10px 0;
+    color: #000;
+    text-align: center;
+}
+
+.gc-about-area .about-content .about-text p {
+    text-align: center;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.gc-about-area .about-content .about-text .gc-button {
+    width: 100%;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}

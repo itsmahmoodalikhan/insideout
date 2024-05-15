@@ -1,0 +1,35 @@
+/** 
+
+08. counter area 
+
+**/
+
+.gc-conunter-area {
+    padding: 100px;
+    background-color: #ffffff;
+}
+
+.gc-conunter-area .counter-text {
+    text-align: center;
+}
+
+.gc-conunter-area .counter-text p {
+    color: #000;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-conunter-area .counter-text {
+        margin: 20px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}

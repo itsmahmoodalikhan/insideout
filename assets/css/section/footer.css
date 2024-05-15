@@ -1,0 +1,117 @@
+/** 
+
+11. footer area
+
+**/
+
+.gc-footer-area {
+    padding: 100px 0;
+}
+
+.gc-footer-area .form-area .section-title h2 {
+    margin-bottom: 25px;
+}
+
+.gc-footer-area .form-area .form-text {
+    display: flex;
+}
+
+.gc-footer-area .form-area input {
+    height: 46px;
+    width: 100%;
+    border: none;
+    background-color: #f7f7f7;
+    color: #c9c9c9;
+    padding-left: 20px;
+}
+
+.gc-footer-area .form-area .cc-btn {
+    width: 50%;
+}
+
+.gc-footer-area .footer-widgets {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.gc-footer-area .footer-widgets .single-widgets {
+    margin-right: 10px;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-title {
+    margin-bottom: 10px;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-title h4 {
+    color: #000;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-link ul p {
+    color: #666666;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-link ul li {
+    list-style: none;
+    color: #666666;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-link ul li a {
+    line-height: 30px;
+    color: #666666;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .widgets-link ul li a:hover {
+    color: #000000;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .footer-logo a img {
+    margin-right: 10px;
+}
+
+.gc-footer-area .footer-widgets .single-widgets .widgets-content .footer-logo a img:hover {
+    color: #000000;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-footer-area .form-area .form-input {
+        margin-bottom: 20px;
+    }
+    .gc-footer-area .form-area .section-title h2 {
+        text-align: center;
+    }
+    .gc-footer-area .form-area .form-button .gc-button {
+        width: 100%;
+    }
+    .gc-footer-area .footer-widgets .single-widgets {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-footer-area .form-area .form-input {
+        margin-bottom: 0;
+    }
+    .gc-footer-area .form-area .section-title h2 {
+        text-align: left;
+    }
+    .gc-footer-area .form-area .form-button .gc-button {
+        width: 50%;
+    }
+    .gc-footer-area .footer-widgets .single-widgets {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,120 @@
+/** 
+
+02. slider area 
+
+**/
+
+.gc-main-slider-area {
+    overflow: hidden;
+}
+
+.gc-main-slider-area .slider-thumb {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.gc-main-slider-area .slider-content {
+    text-align: left;
+}
+
+.gc-main-slider-area .slider-content h1 {
+    padding: 30px 0;
+}
+
+.gc-main-slider-area .slider-content h3 {
+    font-weight: 400;
+    color: #fff;
+}
+
+.gc-main-slider-area .slider-content p {
+    padding-bottom: 30px;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-main-slider-area {
+        overflow: hidden;
+        position: relative;
+        top: 80px;
+    }
+    .gc-main-slider-area .slider-thumb {
+        height: 320px;
+    }
+    .gc-main-slider-area .slider-content h1 {
+        font-size: 50px;
+        padding: 15px 0;
+    }
+    .gc-main-slider-area .slider-content h4 {
+        font-weight: 400;
+        font-size: 15px;
+        color: #fff;
+    }
+    .gc-main-slider-area .slider-content p {
+        display: none;
+    }
+    .gc-main-slider-area .slider-content .btn {
+        padding: 6px 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .gc-main-slider-area .slider-thumb {
+        height: 540px;
+    }
+    .gc-main-slider-area .slider-content h1 {
+        font-size: 70px;
+    }
+    .gc-main-slider-area .slider-content h3 {
+        font-weight: 400;
+        font-size: 28px;
+        color: #fff;
+    }
+    .gc-main-slider-area .slider-content p {
+        display: none;
+    }
+    .gc-main-slider-area .slider-content .btn {
+        padding: 15px 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .gc-main-slider-area .slider-thumb {
+        height: 600px;
+    }
+    .gc-main-slider-area .slider-content h1 {
+        font-size: 80px;
+    }
+    .gc-main-slider-area .slider-content p {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-main-slider-area {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        bottom: 0;
+    }
+    .gc-main-slider-area .slider-thumb {
+        height: 923px;
+    }
+    .gc-main-slider-area .slider-content h1 {
+        font-size: 120px;
+        padding: 30px 0;
+    }
+}

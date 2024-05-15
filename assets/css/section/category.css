@@ -1,0 +1,55 @@
+/** 
+
+05. category
+
+**/
+
+.gc-category-area {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.gc-category-area .section-title h2 {
+    margin-bottom: 65px;
+    color: #fff;
+}
+
+.category-thumb img {
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.category-thumb img:hover {
+    transform: rotateY(180deg);
+}
+
+.gc-category-area .category-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gc-category-area .category-text h4 {
+    color: #fff;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-category-area .section-title h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-category-area .section-title h2 {
+        text-align: left;
+    }
+}

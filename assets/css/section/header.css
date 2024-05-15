@@ -1,0 +1,228 @@
+/** 
+
+01. header area 
+
+**/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.sticky .gc-header-area {
+    background: #0a0a0a;
+}
+
+.gc-header-area {
+    position: absolute;
+    width: 100%;
+}
+
+.gc-header-area .main-wrapper img {
+    width: auto;
+    display: block;
+}
+
+.gc-header-area .main-wrapper a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.gc-header-area .main-wrapper ul li {
+    list-style-type: none;
+}
+
+.logo-and-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.navbar-nav>li>a {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: block;
+    border-bottom: 1px solid #222;
+    border-radius: 1px;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.navbar-nav>li>a:hover {
+    color: #E6E6DC;
+}
+
+.navbar-toggler {
+    display: block;
+    background: transparent;
+    cursor: pointer;
+    padding: 6px 10px;
+    transition: 0.4s;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-collapse {
+    overflow-y: scroll;
+    display: none;
+    padding: 20px;
+    width: 100%;
+    flex-basis: auto;
+}
+
+.navbar-collapse.active {
+    display: block;
+}
+
+.navbar-collapse.open {
+    display: block;
+    width: 100%;
+}
+
+.navbar-toggler:hover .navbar-collapse.active {
+    display: block;
+}
+
+.header-search .site-header {
+    width: 100%;
+    transition: opacity 200ms;
+}
+
+.header-search .site-header button span img {
+    width: 20px;
+}
+
+.header-search .site-search {
+    background-color: transparent;
+    border: 0;
+    float: right;
+}
+
+.header-search .site-search-input {
+    display: block;
+    padding: 0px 30px 0 10px;
+    border: 0;
+    background-color: #fff;
+    outline: none;
+    color: #808080;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 85px;
+}
+
+.header-search .site-search-reset {
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    right: 10px;
+}
+
+.header-search .hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* responsive media */
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .gc-header-area .top-wrapper {
+        display: none;
+    }
+    .navbar {
+        background-color: #0a0a0a;
+    }
+    .navbar-nav>li>a {
+        border: none;
+        display: block;
+        position: relative;
+        transition: all 0.4s ease;
+        text-transform: capitalize;
+        font-size: 16px;
+        border-bottom: 1px solid #222222;
+        font-weight: 400;
+        border-radius: 0;
+        line-height: 35px;
+        padding: 5px 0;
+    }
+    .header-search {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .gc-header-area .top-wrapper {
+        display: flex;
+    }
+    .navbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+        background-color: transparent;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .logo-and-icon {
+        flex: 0 0 100px;
+        border-bottom: none;
+        padding: 0;
+    }
+    .navbar-collapse {
+        display: block !important;
+        overflow-y: hidden;
+        flex: 1 0 auto;
+        background-color: transparent;
+        padding: 0;
+        width: auto;
+    }
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .navbar-nav>li>a {
+        border-bottom: none;
+        margin: 0 0.4rem;
+        padding: 25px 20px;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+        letter-spacing: 0.2px;
+    }
+    .header-search {
+        display: block;
+    }
+}
